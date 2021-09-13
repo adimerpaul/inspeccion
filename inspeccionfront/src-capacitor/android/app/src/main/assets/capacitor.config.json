@@ -1,0 +1,7 @@
+{
+  "appId": "org.capacitor.adimer.inspeccion",
+  "appName": "Inspeccion preventiva",
+  "bundledWebRuntime": false,
+  "npmClient": "yarn",
+  "webDir": "www"
+}

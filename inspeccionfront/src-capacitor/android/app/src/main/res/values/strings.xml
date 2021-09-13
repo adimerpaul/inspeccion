@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Inspeccion preventiva</string>
+    <string name="title_activity_main">Inspeccion preventiva</string>
+    <string name="package_name">org.capacitor.adimer.inspeccion</string>
+    <string name="custom_url_scheme">org.capacitor.adimer.inspeccion</string>
+</resources>
