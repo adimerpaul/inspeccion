@@ -14,7 +14,7 @@ class PlaceController extends Controller
      */
     public function index()
     {
-        //
+        return Place::all();
     }
 
     /**
@@ -35,7 +35,7 @@ class PlaceController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        place::create($request->all());
     }
 
     /**
@@ -69,7 +69,7 @@ class PlaceController extends Controller
      */
     public function update(Request $request, place $place)
     {
-        //
+        $place->update($request->all());
     }
 
     /**
@@ -80,6 +80,6 @@ class PlaceController extends Controller
      */
     public function destroy(place $place)
     {
-        //
+        $place->delete();
     }
 }

@@ -17,6 +17,10 @@ class DatabaseSeeder extends Seeder
            UserSeeder::class,
             PermisoSeeder::class,
             PermisoUserSeeder::class,
+            PlaceSeeder::class,
+            SensorSeeder::class,
+            ReporteSeeder::class,
+            PlaceSensorSeeder::class
         ]);
 //        \App\Models\User::factory(2)->create();
 //        \App\Models\Doctor::factory(2)->create();
